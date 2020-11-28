@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="for.cpp" />
     <ClCompile Include="If.cpp" />
     <ClCompile Include="TestFile.cpp" />
   </ItemGroup>
