@@ -54,15 +54,16 @@ int main()
 
 	int H, M;
 	cin >> H >> M;
-	
-	M -= 45;
-	if (H < 0) H += 24;
-	if (M<0)
-	{	
-		H--;
-		M += 60;
-	}
-	cout << H << " " << M;
 
+
+	if (M < 45)
+	{
+		H -= 1;
+		M += 15;
+	}
+	else M -= 45;
+
+	if (H < 0) H = 23;
+	cout << H << " " << M;
 	return 0;
 }
