@@ -1,22 +1,29 @@
-#include <string>
-#include <vector>
+#include <iostream>
 
 using namespace std;
 
-string solution(string phone_number) {
-    string answer = phone_number;
-    for (int i = 0; i < phone_number.length(); i++)
-    {
-        if (i < phone_number.length() - 4)
-        {
-            answer[i] = '*';
-        }
-    }
-    return answer;
+int solution(int n)
+{
+	int answer = 0;
+
+	int num = n;
+
+	while (true)
+	{
+		int last = num % 10;
+
+		answer += last;
+		num /= 10;
+
+		if (num == 0)break;
+	}
+
+	return answer;
 }
 
 int main()
 {
-    solution("01022253534");
-    return 0;
+	solution(1324);
+
+	return 0;
 }
