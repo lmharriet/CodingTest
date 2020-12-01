@@ -1,21 +1,18 @@
 #include <iostream>
-
+#include <vector>
 using namespace std;
 
-int solution(int n)
-{
-	int answer = 0;
+//두 정수 사이의 합
+long long solution(int a, int b) {
+	long long answer = 0;
 
-	int num = n;
+	if (a == b)return a;
 
-	while (true)
+	if (b < a) swap(a, b);
+
+	for (int i = a; i <= b; i++)
 	{
-		int last = num % 10;
-
-		answer += last;
-		num /= 10;
-
-		if (num == 0)break;
+		answer += i;
 	}
 
 	return answer;
@@ -23,7 +20,7 @@ int solution(int n)
 
 int main()
 {
-	solution(1324);
+	cout <<solution(9,2);
 
 	return 0;
 }
