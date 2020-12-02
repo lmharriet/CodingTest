@@ -3,30 +3,26 @@
 #include <vector>
 
 using namespace std;
+//가운데 글자 가져오기
+using namespace std;
 
-long long solution(int a, int b)
-{
-	long long answer = 0;
+string solution(string s) {
+	string answer = "";
 
-	vector<long long> middleNum;
-
-	if (b < a) swap(a, b);
-
-	for (int i = a; i <= b; i++)
+	if (s.length() % == 0)
 	{
-		middleNum.push_back(i);
+		
 	}
-
-	for (int i = 0; i < middleNum.size(); i++)
+	else
 	{
-		//cout << middleNum[i] << '\n';
-		answer += middleNum[i];
+		
 	}
+	
 	return answer;
 }
 int main()
 {
-	cout << solution(3, 3);
+	cout << solution("qwer");
 
 	return 0;
 }
