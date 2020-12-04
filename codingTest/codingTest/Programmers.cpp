@@ -2,29 +2,24 @@
 #include <string>
 #include <vector>
 
-//가운데 글자 가져오기
 using namespace std;
-
-#include <string>
-#include <vector>
-
-using namespace std;
-
-//문자열을 정수로 바꾸기
-
-int solution(string s)
+//약수의 합
+int solution(int n)
 {
-	int answer = stoi(s);
-		return answer;
+	int answer = 0;
+	for (int i = 1; i <= n; i++)
+	{
+		if (n % i == 0)
+		{
+			answer += i;
+		}
+	}
+	return answer;
 }
 
 int main()
 {
-	cout << solution("034");
-	//string a = "1234";
-	//
-	//int num =stoi(a, nullptr, 10);
-	//cout << num;
-	//
+	cout << solution(12) << '\n';
+	cout << solution(5);
 	return 0;
 }
