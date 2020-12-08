@@ -14,6 +14,5 @@ int axis(int x, int y)
 	//else if (axisX > 0 && axisY < 0) cout << "4";
 	else answer = 4;// cout << "4";
 
-	
 	return answer;
 }

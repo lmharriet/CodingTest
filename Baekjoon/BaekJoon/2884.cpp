@@ -2,7 +2,6 @@
 
 using namespace std;
 //baekjoon 2884
-
 int alarm()
 {
 	int H, M;

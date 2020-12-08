@@ -1,9 +1,6 @@
 #include<iostream>
-
 using namespace std;
-
 //baekjoon 2753
-
 void LeapYear()
 {
 	bool isLeapYear;

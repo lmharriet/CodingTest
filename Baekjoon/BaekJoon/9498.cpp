@@ -1,10 +1,8 @@
 #include<iostream>
-
 using namespace std;
 //baekjoon 9498
 int myScore()
 {
-
 	int score;
 	cin >> score;
 	if (score >= 90) cout << "A";
@@ -14,5 +12,4 @@ int myScore()
 	else cout << "F";
 
 	return 0;
-
 }
