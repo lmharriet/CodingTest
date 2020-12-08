@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="baekjoon.cpp" />
+    <ClCompile Include="descendingOrder.cpp" />
     <ClCompile Include="for.cpp" />
     <ClCompile Include="If.cpp" />
     <ClCompile Include="Programmers.cpp" />

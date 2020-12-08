@@ -13,22 +13,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Baekjoon">
+      <UniqueIdentifier>{a6be005e-cbfc-4a13-b615-a35118e835d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programmers">
+      <UniqueIdentifier>{0255773a-e8e3-44da-aa90-a2a764744faa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TestFile.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="If.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="for.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="baekjoon.cpp">
+      <Filter>Baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="Programmers.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Programmers</Filter>
     </ClCompile>
-    <ClCompile Include="baekjoon.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="descendingOrder.cpp">
+      <Filter>Programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="for.cpp">
+      <Filter>Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="If.cpp">
+      <Filter>Baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFile.cpp">
+      <Filter>Baekjoon</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
