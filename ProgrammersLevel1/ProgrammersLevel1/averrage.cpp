@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
-
 /*
 C언어로 푼 문제
 평균 구하기

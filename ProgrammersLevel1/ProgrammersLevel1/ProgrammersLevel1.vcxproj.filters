@@ -13,5 +13,52 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Level1">
+      <UniqueIdentifier>{7247aa79-811d-4797-bdd7-c0d939bf61c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="star.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="stoi.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="sumBetweenNum1AndrNum2.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="sumPositionalNumber.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="waterMelon.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="reverseArray.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="2016.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="averrage.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="basicString.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="descendingOrder.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="divisor.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="middleNumber.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="oddAndEven.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="phoneNumber.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
