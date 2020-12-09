@@ -28,6 +28,6 @@ int maxNumber()
 		}
 
 	}
-	cout << max << '\n' << position+1;
+	cout << max << '\n' << position + 1;
 	return 0;
 }
