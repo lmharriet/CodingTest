@@ -12,7 +12,7 @@ using namespace std;
 s는 길이가 1 이상, 100이하인 스트링입니다.
 */
 
-string solution(string s) {
+string MiddleNum(string s) {
     string answer = "";
     int len = s.length();
 

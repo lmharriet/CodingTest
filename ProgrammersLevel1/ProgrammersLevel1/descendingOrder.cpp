@@ -20,9 +20,8 @@ str은 길이 1 이상인 문자열입니다.
 */
 
 //버블정렬
-string solution(string s)
+string Descending(string s)
 {
-
 	for (int i = 0; i < s.length(); i++)
 	{
 		for (int j = 1; j < s.length() - i; j++)

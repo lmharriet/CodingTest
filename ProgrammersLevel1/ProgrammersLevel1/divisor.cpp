@@ -17,7 +17,7 @@ n	return
 12	28
 5	6
 */
-int solution(int n)
+int Divisor(int n)
 {
 	int answer = 0;
 	for (int i = 1; i <= n; i++)

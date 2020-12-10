@@ -15,7 +15,7 @@ n	      return
 12345	[5,4,3,2,1]
 */
 
-vector<int> solution(long long n) {
+vector<int> reversArr(long long n) {
     vector<int> answer;
 
     while (n > 0)

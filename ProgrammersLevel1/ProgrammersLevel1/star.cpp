@@ -9,7 +9,8 @@ using namespace std;
 제한 조건
 n과 m은 각각 1000 이하인 자연수입니다.
 */
-int main(void) {
+int star()
+{
     int a;
     int b;
     cin >> a >> b;

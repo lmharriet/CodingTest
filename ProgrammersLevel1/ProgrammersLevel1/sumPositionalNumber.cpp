@@ -10,7 +10,7 @@ using namespace std;
 N의 범위 : 100,000,000 이하의 자연수
 */
 
-int solution(int n)
+int SumPositionalNum(int n)
 {
 	int answer = 0;
 

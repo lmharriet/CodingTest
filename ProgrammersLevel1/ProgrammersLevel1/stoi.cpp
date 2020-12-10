@@ -14,10 +14,8 @@ s의 맨앞에는 부호(+, -)가 올 수 있습니다.
 s는 부호와 숫자로만 이루어져있습니다.
 s는 0으로 시작하지 않습니다.
 */
-int solution(string s)
+int S2i(string s)
 {
-
 	int answer = stoi(s);
-
 	return answer;
 }

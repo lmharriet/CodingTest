@@ -153,6 +153,7 @@
     <ClCompile Include="sumBetweenNum1AndrNum2.cpp" />
     <ClCompile Include="sumPositionalNumber.cpp" />
     <ClCompile Include="waterMelon.cpp" />
+    <ClCompile Include="weirdWord.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

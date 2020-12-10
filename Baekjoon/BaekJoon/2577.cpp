@@ -12,7 +12,7 @@ A × B × C = 150 × 266 × 427 = 17037300 이 되고,
 
 계산한 결과 17037300 에는 0이 3번, 1이 1번, 3이 2번, 7이 2번 쓰였다.
 */
-int main(void)
+int countNumber()
 {
 	int A, B, C;
 	cin >> A >> B >> C;
@@ -29,8 +29,7 @@ int main(void)
 
 	for (int i = 0; i < 10; i++)
 	{
-
 		cout << arr[i]<<'\n'; //0번~9번까지 저장된 값 출력
 	}
-
+	return 0;
 }

@@ -15,7 +15,7 @@ n은 길이 10,000이하인 자연수입니다.
 
 using namespace std;
 
-string solution(int n) {
+string WaterMelon(int n) {
     string answer = "";
     string a = "수";
     string b = "박";

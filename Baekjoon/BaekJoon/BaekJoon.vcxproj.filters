@@ -51,5 +51,8 @@
     <ClCompile Include="2577.cpp">
       <Filter>Array</Filter>
     </ClCompile>
+    <ClCompile Include="3052.cpp">
+      <Filter>Array</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

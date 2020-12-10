@@ -2,7 +2,6 @@
 #include <string>
 #include <vector>
 using namespace std;
-
 /*
 2016년
 
@@ -16,9 +15,9 @@ olution을 완성하세요. 요일의 이름은 일요일부터 토요일까지 각각 SUN,MON,TUE,WED,T
 2016년 a월 b일은 실제로 있는 날입니다. (13월 26일이나 2월 45일같은 날짜는 주어지지 않습니다)*/
 
 
-string solution(int a, int b) {
+string Year(int a, int b) 
+{
 	string days[7] = { "THU","FRI","SAT","SUN","MON","TUE","WED" };
-
 	int maxDay[12] = { 0,31,29,31,30,31,30,31,31,30,31,30 };
 
 	int total = 0;

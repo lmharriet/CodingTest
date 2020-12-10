@@ -11,7 +11,7 @@ solution을 완성해주세요.
 s는 길이 4 이상, 20이하인 문자열입니다.
 */
 
-string solution(string phone_number) {
+string phoneNum(string phone_number) {
 	string answer = "";
 
 	for (int i = 0; i < phone_number.length(); i++)
