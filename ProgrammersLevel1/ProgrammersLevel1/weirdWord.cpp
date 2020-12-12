@@ -60,7 +60,7 @@ string WeirdWord(string s)
 	return s;
 }
 
-void main()
-{
-	cout << WeirdWord("programmers is so cool");
-}
+//void main()
+//{
+//	cout << WeirdWord("programmers is so cool");
+//}

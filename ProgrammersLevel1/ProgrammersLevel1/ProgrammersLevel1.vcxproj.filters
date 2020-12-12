@@ -63,5 +63,11 @@
     <ClCompile Include="weirdWord.cpp">
       <Filter>Level1</Filter>
     </ClCompile>
+    <ClCompile Include="allHarshadNumber.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="collatzConjecture.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

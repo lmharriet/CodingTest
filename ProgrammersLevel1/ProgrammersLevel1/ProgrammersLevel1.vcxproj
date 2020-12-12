@@ -140,8 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="2016.cpp" />
+    <ClCompile Include="allHarshadNumber.cpp" />
     <ClCompile Include="averrage.cpp" />
     <ClCompile Include="basicString.cpp" />
+    <ClCompile Include="collatzConjecture.cpp" />
     <ClCompile Include="descendingOrder.cpp" />
     <ClCompile Include="divisor.cpp" />
     <ClCompile Include="middleNumber.cpp" />
