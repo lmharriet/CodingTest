@@ -146,6 +146,7 @@
     <ClCompile Include="collatzConjecture.cpp" />
     <ClCompile Include="descendingOrder.cpp" />
     <ClCompile Include="divisor.cpp" />
+    <ClCompile Include="inner.cpp" />
     <ClCompile Include="middleNumber.cpp" />
     <ClCompile Include="oddAndEven.cpp" />
     <ClCompile Include="phoneNumber.cpp" />
