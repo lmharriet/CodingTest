@@ -55,7 +55,10 @@
       <Filter>Array</Filter>
     </ClCompile>
     <ClCompile Include="1546.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Array</Filter>
+    </ClCompile>
+    <ClCompile Include="8958.cpp">
+      <Filter>Array</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
