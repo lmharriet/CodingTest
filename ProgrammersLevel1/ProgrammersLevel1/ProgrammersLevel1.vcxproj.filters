@@ -72,5 +72,8 @@
     <ClCompile Include="inner.cpp">
       <Filter>Level1</Filter>
     </ClCompile>
+    <ClCompile Include="base3Converter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
