@@ -25,6 +25,12 @@
     <Filter Include="Math">
       <UniqueIdentifier>{748caaec-a5a7-4a87-aa78-3601bfc92f3d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Function">
+      <UniqueIdentifier>{e5336740-e55f-4253-86c0-3416c810d47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{0cf5ad97-57f5-493e-869c-bf1b7f7cd116}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1330.cpp">
@@ -67,7 +73,16 @@
       <Filter>Math</Filter>
     </ClCompile>
     <ClCompile Include="4344.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Array</Filter>
+    </ClCompile>
+    <ClCompile Include="15596.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="4673.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="2675.cpp">
+      <Filter>String</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

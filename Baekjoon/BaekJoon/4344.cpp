@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -53,3 +54,4 @@ int aboutAVR()
 	}
 	return 0;
 }
+
