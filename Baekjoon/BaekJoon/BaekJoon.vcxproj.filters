@@ -91,6 +91,9 @@
       <Filter>String</Filter>
     </ClCompile>
     <ClCompile Include="5622.cpp">
+      <Filter>String</Filter>
+    </ClCompile>
+    <ClCompile Include="11720.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
