@@ -13,7 +13,7 @@ ex)
 15
 */
 using namespace std;
-int main()
+int SumStrNumber()
 {
 	int N;
 	cin >> N;
