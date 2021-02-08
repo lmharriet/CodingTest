@@ -14,19 +14,38 @@ using namespace std;
 int main()
 {
 	string input;
-	string alphabet[8] = { "c=","c-","dz=","d-","lj","nj","s=","z=" };
-	vector<string> vAlphabet;
+	string alphabet[] = { "c=","c-","dz=","d-","lj","nj","s=","z=" };
+
+
+	int count = 0;
 	cin >> input;
 
+
 	for (int i = 0; i < 8; i++)
-	{
-		if (input.find(alphabet[i]) != -1)
+	{	//   0123456789 // -1
+		// {"ts!as!as!a"}.find("as"); 3
+
+		int num = input.find(alphabet[i]); // 인덱스를 리턴함 d  2
+
+		while (num != -1)
 		{
-			vAlphabet.push_back(alphabet[i]);
+			input.replace(num, alphabet[i].size(), "!");
+			count++;
+
+			num = input.find(alphabet[i]);
 		}
-		cout << alphabet[i][0]<<'\n';
 	}
 
-	cout << vAlphabet.size();
+	for (int i = 0; i < input.size(); i++)
+	{
+		if (input[i] != '!')
+		{
+			count++;
+		}
+	}
+
+
+	cout << count;
+
 	return 0;
 }
