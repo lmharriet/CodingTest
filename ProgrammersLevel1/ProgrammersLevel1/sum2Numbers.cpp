@@ -5,7 +5,7 @@
 
 using namespace std;
 //2,1,3,4,1
-vector<int> solution(vector<int> numbers) {
+vector<int> sum2Numbers(vector<int> numbers) {
 
 	vector<int>answer;
 	set<int> sum;
@@ -24,17 +24,17 @@ vector<int> solution(vector<int> numbers) {
 
 	return answer;
 }
-
-int main()
-{
-	vector<int> output;
-
-	output = solution({ 2,1,3,4,1 });
-	
-	for (int i = 0; i < output.size(); i++)
-	{
-		cout << output[i] << '\n';
-	}
-
-	return 0;
-}
+//
+//int main()
+//{
+//	vector<int> output;
+//
+//	output = solution({ 2,1,3,4,1 });
+//	
+//	for (int i = 0; i < output.size(); i++)
+//	{
+//		cout << output[i] << '\n';
+//	}
+//
+//	return 0;
+//}
