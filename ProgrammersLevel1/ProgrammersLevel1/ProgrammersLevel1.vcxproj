@@ -151,9 +151,11 @@
     <ClCompile Include="middleNumber.cpp" />
     <ClCompile Include="oddAndEven.cpp" />
     <ClCompile Include="phoneNumber.cpp" />
+    <ClCompile Include="removeMinNumber.cpp" />
     <ClCompile Include="reverseArray.cpp" />
     <ClCompile Include="star.cpp" />
     <ClCompile Include="stoi.cpp" />
+    <ClCompile Include="sum2Numbers.cpp" />
     <ClCompile Include="sumBetweenNum1AndrNum2.cpp" />
     <ClCompile Include="sumPositionalNumber.cpp" />
     <ClCompile Include="waterMelon.cpp" />

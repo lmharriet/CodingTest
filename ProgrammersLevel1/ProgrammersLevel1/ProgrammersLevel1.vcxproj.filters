@@ -73,6 +73,12 @@
       <Filter>Level1</Filter>
     </ClCompile>
     <ClCompile Include="base3Converter.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="sum2Numbers.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="removeMinNumber.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
