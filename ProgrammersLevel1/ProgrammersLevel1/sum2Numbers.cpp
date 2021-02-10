@@ -9,7 +9,6 @@ vector<int> solution(vector<int> numbers) {
 
 	vector<int>answer;
 	set<int> sum;
-	set<int>::iterator iter;
 
 	int count = 0;
 	for (int i = 0; i < numbers.size() - 1; i++)
@@ -17,14 +16,11 @@ vector<int> solution(vector<int> numbers) {
 		for (int j = i + 1; j < numbers.size(); j++)
 		{
 			sum.insert(numbers[i] + numbers[j]);
-			cout << numbers[i] + numbers[j];
 		}
 	}
+
 	
-	for (iter = sum.begin(); iter != sum.end(); ++iter)
-	{
-		answer.push_back(*iter);
-	}
+	answer.assign(sum.begin(), sum.end());
 
 	return answer;
 }
@@ -34,6 +30,11 @@ int main()
 	vector<int> output;
 
 	output = solution({ 2,1,3,4,1 });
+	
+	for (int i = 0; i < output.size(); i++)
+	{
+		cout << output[i] << '\n';
+	}
 
 	return 0;
 }
