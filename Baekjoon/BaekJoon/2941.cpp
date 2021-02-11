@@ -11,7 +11,7 @@
 */
 using namespace std;
 
-int main()
+int CroatiaAlphabet()
 {
 	string input;
 	string alphabet[] = { "c=","c-","dz=","d-","lj","nj","s=","z=" };
