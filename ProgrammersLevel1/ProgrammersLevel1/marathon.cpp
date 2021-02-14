@@ -4,7 +4,7 @@
 
 using namespace std;
 
-string solution(vector<string> participant, vector<string> completion) {
+string Marathon(vector<string> participant, vector<string> completion) {
 	string answer = "";
 
 	int size = participant.size();
@@ -34,12 +34,12 @@ string solution(vector<string> participant, vector<string> completion) {
 	
 	return answer;
 }
-
-int main()
-{
-	cout << solution({ "leo", "kiki", "eden" }, { "eden", "kiki" }) << '\n';
-	cout << solution({ "marina", "josipa", "nikola","vinko","filipa" }, { "josipa", "filipa", "marina", "nikola" }) << '\n';
-	cout << solution({ "mislav", "stanko", "mislav","ana" }, { "stanko", "ana","mislav" }) << '\n';
-
-	return 0;
-}
+//
+//int main()
+//{
+//	cout << Marathon({ "leo", "kiki", "eden" }, { "eden", "kiki" }) << '\n';
+//	cout << Marathon({ "marina", "josipa", "nikola","vinko","filipa" }, { "josipa", "filipa", "marina", "nikola" }) << '\n';
+//	cout << Marathon({ "mislav", "stanko", "mislav","ana" }, { "stanko", "ana","mislav" }) << '\n';
+//
+//	return 0;
+//}
