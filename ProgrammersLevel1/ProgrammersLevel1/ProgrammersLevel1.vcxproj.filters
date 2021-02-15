@@ -84,5 +84,8 @@
     <ClCompile Include="marathon.cpp">
       <Filter>Level1</Filter>
     </ClCompile>
+    <ClCompile Include="stringPAndY.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

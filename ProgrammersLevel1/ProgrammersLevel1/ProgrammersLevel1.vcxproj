@@ -156,6 +156,7 @@
     <ClCompile Include="reverseArray.cpp" />
     <ClCompile Include="star.cpp" />
     <ClCompile Include="stoi.cpp" />
+    <ClCompile Include="stringPAndY.cpp" />
     <ClCompile Include="sum2Numbers.cpp" />
     <ClCompile Include="sumBetweenNum1AndrNum2.cpp" />
     <ClCompile Include="sumPositionalNumber.cpp" />
