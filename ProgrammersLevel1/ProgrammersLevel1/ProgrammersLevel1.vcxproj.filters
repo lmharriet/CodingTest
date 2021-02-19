@@ -93,5 +93,8 @@
     <ClCompile Include="indexK.cpp">
       <Filter>Level1</Filter>
     </ClCompile>
+    <ClCompile Include="WhereIsKim.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

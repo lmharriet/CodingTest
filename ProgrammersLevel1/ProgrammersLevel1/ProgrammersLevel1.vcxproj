@@ -164,6 +164,7 @@
     <ClCompile Include="sumPositionalNumber.cpp" />
     <ClCompile Include="waterMelon.cpp" />
     <ClCompile Include="weirdWord.cpp" />
+    <ClCompile Include="WhereIsKim.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
