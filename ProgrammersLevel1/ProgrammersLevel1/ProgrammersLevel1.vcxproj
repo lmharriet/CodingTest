@@ -151,6 +151,7 @@
     <ClCompile Include="indexK.cpp" />
     <ClCompile Include="inner.cpp" />
     <ClCompile Include="marathon.cpp" />
+    <ClCompile Include="matrixAddition.cpp" />
     <ClCompile Include="middleNumber.cpp" />
     <ClCompile Include="oddAndEven.cpp" />
     <ClCompile Include="phoneNumber.cpp" />
