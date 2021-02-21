@@ -97,7 +97,7 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="matrixAddition.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Level1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
