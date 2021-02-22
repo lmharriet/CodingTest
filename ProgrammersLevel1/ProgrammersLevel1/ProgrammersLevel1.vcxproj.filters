@@ -93,10 +93,19 @@
     <ClCompile Include="indexK.cpp">
       <Filter>Level1</Filter>
     </ClCompile>
-    <ClCompile Include="WhereIsKim.cpp">
+    <ClCompile Include="matrixAddition.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="uniform.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="matrixAddition.cpp">
+    <ClCompile Include="giveUpMath.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="WhereIsKim.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="numberSort.cpp">
       <Filter>Level1</Filter>
     </ClCompile>
   </ItemGroup>

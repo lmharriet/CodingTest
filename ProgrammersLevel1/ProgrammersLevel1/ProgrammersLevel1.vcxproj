@@ -147,12 +147,14 @@
     <ClCompile Include="collatzConjecture.cpp" />
     <ClCompile Include="descendingOrder.cpp" />
     <ClCompile Include="divisor.cpp" />
+    <ClCompile Include="giveUpMath.cpp" />
     <ClCompile Include="IHateSameNumber.cpp" />
     <ClCompile Include="indexK.cpp" />
     <ClCompile Include="inner.cpp" />
     <ClCompile Include="marathon.cpp" />
     <ClCompile Include="matrixAddition.cpp" />
     <ClCompile Include="middleNumber.cpp" />
+    <ClCompile Include="numberSort.cpp" />
     <ClCompile Include="oddAndEven.cpp" />
     <ClCompile Include="phoneNumber.cpp" />
     <ClCompile Include="removeMinNumber.cpp" />
@@ -163,6 +165,7 @@
     <ClCompile Include="sum2Numbers.cpp" />
     <ClCompile Include="sumBetweenNum1AndrNum2.cpp" />
     <ClCompile Include="sumPositionalNumber.cpp" />
+    <ClCompile Include="uniform.cpp" />
     <ClCompile Include="waterMelon.cpp" />
     <ClCompile Include="weirdWord.cpp" />
     <ClCompile Include="WhereIsKim.cpp" />
