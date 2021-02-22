@@ -4,12 +4,10 @@
 
 using namespace std;
 
-
-long long numberSort(long long n) {
+long long DescendSort(long long n) {
 	long long answer = 0;
 	long long num = n;
 	vector<long long> remainder;
-
 
 	while (num)
 	{
