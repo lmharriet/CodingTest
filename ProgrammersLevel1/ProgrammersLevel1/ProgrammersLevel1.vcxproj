@@ -147,6 +147,7 @@
     <ClCompile Include="collatzConjecture.cpp" />
     <ClCompile Include="descendingOrder.cpp" />
     <ClCompile Include="divisor.cpp" />
+    <ClCompile Include="Eratosthenes.cpp" />
     <ClCompile Include="giveUpMath.cpp" />
     <ClCompile Include="IHateSameNumber.cpp" />
     <ClCompile Include="indexK.cpp" />

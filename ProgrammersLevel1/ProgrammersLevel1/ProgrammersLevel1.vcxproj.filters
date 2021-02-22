@@ -108,5 +108,8 @@
     <ClCompile Include="numberSort.cpp">
       <Filter>Level1</Filter>
     </ClCompile>
+    <ClCompile Include="Eratosthenes.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
