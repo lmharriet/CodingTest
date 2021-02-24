@@ -158,6 +158,7 @@
     <ClCompile Include="numberSort.cpp" />
     <ClCompile Include="oddAndEven.cpp" />
     <ClCompile Include="phoneNumber.cpp" />
+    <ClCompile Include="remainZero.cpp" />
     <ClCompile Include="removeMinNumber.cpp" />
     <ClCompile Include="reverseArray.cpp" />
     <ClCompile Include="star.cpp" />
