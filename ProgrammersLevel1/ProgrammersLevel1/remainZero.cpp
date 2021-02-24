@@ -10,7 +10,7 @@ vector<int> remainZero(vector<int> arr, int divisor) {
 	int size = arr.size();
 
 	sort(arr.begin(), arr.end());
-
+	
 	for (int i = 0; i < size; i++)
 	{
 		if (arr[i] % divisor != 0) continue;
@@ -24,7 +24,7 @@ vector<int> remainZero(vector<int> arr, int divisor) {
 
 //int main()
 //{
-//	auto output = solution({ 2,36,1,3 }, 1);
+//	auto output = remainZero({ 2,36,1,3 }, 1);
 //	for (auto it : output)
 //	{
 //		cout << it << " ";
