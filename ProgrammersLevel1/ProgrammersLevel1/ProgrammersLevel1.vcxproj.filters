@@ -120,5 +120,8 @@
     <ClCompile Include="xPlusX.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="password.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

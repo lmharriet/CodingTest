@@ -157,6 +157,7 @@
     <ClCompile Include="middleNumber.cpp" />
     <ClCompile Include="numberSort.cpp" />
     <ClCompile Include="oddAndEven.cpp" />
+    <ClCompile Include="password.cpp" />
     <ClCompile Include="phoneNumber.cpp" />
     <ClCompile Include="remainZero.cpp" />
     <ClCompile Include="removeMinNumber.cpp" />
