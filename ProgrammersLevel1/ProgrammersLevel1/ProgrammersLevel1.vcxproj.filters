@@ -117,5 +117,8 @@
     <ClCompile Include="strSort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="xPlusX.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
