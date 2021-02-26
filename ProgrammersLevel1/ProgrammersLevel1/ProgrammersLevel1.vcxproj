@@ -144,6 +144,7 @@
     <ClCompile Include="averrage.cpp" />
     <ClCompile Include="base3Converter.cpp" />
     <ClCompile Include="basicString.cpp" />
+    <ClCompile Include="budget.cpp" />
     <ClCompile Include="collatzConjecture.cpp" />
     <ClCompile Include="descendingOrder.cpp" />
     <ClCompile Include="divisor.cpp" />
