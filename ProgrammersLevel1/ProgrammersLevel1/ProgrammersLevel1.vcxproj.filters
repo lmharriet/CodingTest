@@ -75,9 +75,6 @@
     <ClCompile Include="base3Converter.cpp">
       <Filter>Level1</Filter>
     </ClCompile>
-    <ClCompile Include="removeMinNumber.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="sum2Numbers.cpp">
       <Filter>Level1</Filter>
     </ClCompile>
@@ -99,32 +96,38 @@
     <ClCompile Include="uniform.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="giveUpMath.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="WhereIsKim.cpp">
       <Filter>Level1</Filter>
     </ClCompile>
     <ClCompile Include="numberSort.cpp">
       <Filter>Level1</Filter>
     </ClCompile>
-    <ClCompile Include="Eratosthenes.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="remainZero.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="strSort.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="xPlusX.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="password.cpp">
+    <ClCompile Include="GCDAndLCM.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="budget.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Eratosthenes.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="giveUpMath.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="password.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="strSort.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="removeMinNumber.cpp">
+      <Filter>Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="xPlusX.cpp">
+      <Filter>Level1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
