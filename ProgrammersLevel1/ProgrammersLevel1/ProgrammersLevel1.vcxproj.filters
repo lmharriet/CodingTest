@@ -129,5 +129,8 @@
     <ClCompile Include="xPlusX.cpp">
       <Filter>Level1</Filter>
     </ClCompile>
+    <ClCompile Include="failureRate.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
