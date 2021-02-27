@@ -8,7 +8,6 @@ vector<int> MathTest(vector<int> answers)
 	vector<int> answer;
 	vector<vector<int>> person = { {1,2,3,4,5} ,{2,1,2,3,2,4,2,5 } ,{3,3,1,1,2,2,4,4,5,5} };
 	int counts[3] = { 0,0,0 };
-	int count = 0;
 	for (int i = 0; i < person.size(); i++)
 	{
 		for (int j = 0; j < answers.size(); j++)
@@ -19,9 +18,7 @@ vector<int> MathTest(vector<int> answers)
 				counts[i]++;
 			}
 		}
-		count = 0;
 	}
-
 
 	int max = counts[0];
 
