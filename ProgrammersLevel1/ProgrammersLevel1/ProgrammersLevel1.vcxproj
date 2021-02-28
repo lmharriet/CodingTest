@@ -146,6 +146,7 @@
     <ClCompile Include="basicString.cpp" />
     <ClCompile Include="budget.cpp" />
     <ClCompile Include="collatzConjecture.cpp" />
+    <ClCompile Include="dartGame.cpp" />
     <ClCompile Include="descendingOrder.cpp" />
     <ClCompile Include="divisor.cpp" />
     <ClCompile Include="Eratosthenes.cpp" />
