@@ -21,5 +21,11 @@
     <ClCompile Include="JadenCase.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="stockPrices.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="phoneBook.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -140,7 +140,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="JadenCase.cpp" />
+    <ClCompile Include="phoneBook.cpp" />
     <ClCompile Include="removePair.cpp" />
+    <ClCompile Include="stockPrices.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
