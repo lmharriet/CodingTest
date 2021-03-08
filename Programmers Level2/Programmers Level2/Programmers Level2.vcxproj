@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="hIndex.cpp" />
     <ClCompile Include="JadenCase.cpp" />
     <ClCompile Include="phoneBook.cpp" />
     <ClCompile Include="removePair.cpp" />
