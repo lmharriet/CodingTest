@@ -147,6 +147,7 @@
     <ClCompile Include="phoneBook.cpp" />
     <ClCompile Include="removePair.cpp" />
     <ClCompile Include="stockPrices.cpp" />
+    <ClCompile Include="theBiggestNumber.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
