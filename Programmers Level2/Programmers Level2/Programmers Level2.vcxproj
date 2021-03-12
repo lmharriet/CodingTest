@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="convertBinary.cpp" />
+    <ClCompile Include="devFunction.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="hIndex.cpp" />
     <ClCompile Include="JadenCase.cpp" />
