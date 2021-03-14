@@ -147,6 +147,7 @@
     <ClCompile Include="makeMinimum.cpp" />
     <ClCompile Include="phoneBook.cpp" />
     <ClCompile Include="removePair.cpp" />
+    <ClCompile Include="skillTree.cpp" />
     <ClCompile Include="stockPrices.cpp" />
     <ClCompile Include="theBiggestNumber.cpp" />
   </ItemGroup>
