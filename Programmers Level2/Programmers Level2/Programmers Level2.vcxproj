@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="camouflage.cpp" />
     <ClCompile Include="convertBinary.cpp" />
     <ClCompile Include="devFunction.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
