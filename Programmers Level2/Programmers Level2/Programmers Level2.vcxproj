@@ -145,6 +145,7 @@
     <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="hIndex.cpp" />
     <ClCompile Include="JadenCase.cpp" />
+    <ClCompile Include="lifeBoat.cpp" />
     <ClCompile Include="makeMinimum.cpp" />
     <ClCompile Include="phoneBook.cpp" />
     <ClCompile Include="removePair.cpp" />
