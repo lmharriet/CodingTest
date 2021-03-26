@@ -57,8 +57,5 @@
     <ClCompile Include="LCMs.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="longJump.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

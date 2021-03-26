@@ -147,7 +147,6 @@
     <ClCompile Include="JadenCase.cpp" />
     <ClCompile Include="LCMs.cpp" />
     <ClCompile Include="lifeBoat.cpp" />
-    <ClCompile Include="longJump.cpp" />
     <ClCompile Include="makeMinimum.cpp" />
     <ClCompile Include="phoneBook.cpp" />
     <ClCompile Include="removePair.cpp" />
