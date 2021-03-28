@@ -153,6 +153,7 @@
     <ClCompile Include="skillTree.cpp" />
     <ClCompile Include="stockPrices.cpp" />
     <ClCompile Include="theBiggestNumber.cpp" />
+    <ClCompile Include="truck.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
