@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="124country.cpp" />
     <ClCompile Include="camouflage.cpp" />
     <ClCompile Include="convertBinary.cpp" />
     <ClCompile Include="devFunction.cpp" />
