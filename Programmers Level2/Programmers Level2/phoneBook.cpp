@@ -1,43 +1,49 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <algorithm>
+#include <unordered_map>
 using namespace std;
 
-bool compare(string a, string b)
-{
-	return a.length() < b.length();
-}
 bool solution(vector<string> phone_book) {
-	//not finished yet (this was falied because of time over)
-	bool answer = true;
-
-	sort(phone_book.begin(), phone_book.end(), compare);
+	string checkNumber = "";
+	unordered_map<string, int> m;
 
 	for (int i = 0; i < phone_book.size(); i++)
 	{
-		for (int j = 0; j < phone_book.size(); j++)
+		m[phone_book[i]] = 1;
+	}
+	for (int i = 0; i < phone_book.size(); i++)
+	{
+		for (int j = 0; j < phone_book[i].size(); j++)
 		{
-			if (i == j) continue;
-			if (phone_book[j].find(phone_book[i]) != -1)
+			checkNumber += phone_book[i][j];
+			if (m[checkNumber] && checkNumber != phone_book[i])
 			{
-				if ((phone_book[j].find(phone_book[i]) == 0))
-				{
-					answer = false;
-					break;
-				}
+				//cout << "checkNumber: " << checkNumber << '\n';
+				//cout << "phone_book[i]: " << phone_book[i] << '\n';
+				return false;
 			}
 		}
+		checkNumber.clear();
 	}
-	return answer;
-}
-int main()
-{
-	cout << "0: " << solution({ "119", "97674223", "1195524421" }) << '\n';
-	cout << "1: " << solution({ "112","44","4544" }) << '\n';
-	cout << "1: " << solution({ "123","456","789" }) << '\n';
-	cout << "0: " << solution({ "12","123","1235","567","88" }) << '\n';
-	cout << "0: " << solution({ "123", "456", "4567", "999" }) << '\n';
 
-	return 0;
+	return true;
 }
+//int main()
+//{
+//	Phone_book({ "119", "97674223", "1195524421" }) << '\n';
+//	Phone_book({ "112","44","4544" }) << '\n';
+//	Phone_book({ "123","456","789" }) << '\n';
+//	Phone_book({ "12","123","1235","567","88" }) << '\n';
+//	Phone_book({ "123", "456", "4567", "999" }) << '\n';
+//
+//
+//	/*
+//	cout << "0: " << 
+//	cout << "1: " << 
+//	cout << "1: " << 
+//	cout << "0: " << 
+//	cout << "0: " << 
+//	*/
+//	return 0;
+//}
