@@ -150,6 +150,7 @@
     <ClCompile Include="lifeBoat.cpp" />
     <ClCompile Include="makeMinimum.cpp" />
     <ClCompile Include="phoneBook.cpp" />
+    <ClCompile Include="print.cpp" />
     <ClCompile Include="removePair.cpp" />
     <ClCompile Include="skillTree.cpp" />
     <ClCompile Include="stockPrices.cpp" />
