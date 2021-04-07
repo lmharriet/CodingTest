@@ -147,5 +147,8 @@
     <ClCompile Include="ponketmon.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="makePrimeNumbers.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
