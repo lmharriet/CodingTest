@@ -161,6 +161,7 @@
     <ClCompile Include="marathon.cpp" />
     <ClCompile Include="matrixAddition.cpp" />
     <ClCompile Include="middleNumber.cpp" />
+    <ClCompile Include="negativeAndPositive.cpp" />
     <ClCompile Include="numberSort.cpp" />
     <ClCompile Include="oddAndEven.cpp" />
     <ClCompile Include="password.cpp" />
