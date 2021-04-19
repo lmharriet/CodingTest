@@ -66,5 +66,8 @@
     <ClCompile Include="print.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="moreSpicy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
