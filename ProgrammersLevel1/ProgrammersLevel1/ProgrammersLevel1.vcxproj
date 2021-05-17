@@ -150,6 +150,7 @@
     <ClCompile Include="dartGame.cpp" />
     <ClCompile Include="descendingOrder.cpp" />
     <ClCompile Include="divisor.cpp" />
+    <ClCompile Include="divisorAndSum.cpp" />
     <ClCompile Include="Eratosthenes.cpp" />
     <ClCompile Include="failureRate.cpp" />
     <ClCompile Include="GCDAndLCM.cpp" />
